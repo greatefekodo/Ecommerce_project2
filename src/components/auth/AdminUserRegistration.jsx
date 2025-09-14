@@ -113,6 +113,7 @@ const AdminUserRegistration = () => {
                 required
                 placeholder="User's email"
                 className="admin-input"
+                autoComplete="new-email"
               />
             </div>
 
@@ -126,6 +127,7 @@ const AdminUserRegistration = () => {
                 required
                 placeholder="Create password"
                 className="admin-input"
+                autoComplete="new-password"
               />
             </div>
 
